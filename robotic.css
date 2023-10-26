@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+#navbar {
+  background-color:#042237;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 25px;
+}
+
+#navbar a:hover {
+  color: #36e0f7;
+  border-bottom: 5px solid #36e0f7;
+}
+.nav-links {
+  display: inline;
+  float: right;
+}
+.row.center-y {
+  align-items: center;
+}
+img.brand-logo {
+  margin-left: 75px;
+  display: inline-block;
+}
+.img-business {
+  padding: 15px 15px 0;
+  font-size: 30px;
+  margin-top: 55px;
+  display: flex;
+  background: #042237;
+  background-image: url('who-we-are-bg-overlay.png');
+  background-size: cover;
+}
+img.robote-img {
+  width: 75%;
+  /* animation-name: roboteimg;
+  position: relative;
+  animation-iteration-count: infinite; */
+}
+/* @keyframes roboteimg {
+  form {
+    top:-30px;
+  }
+  to {
+    top: 0;
+  }
+} */
+h1.business_potential {
+  font-size: 65px;
+  color: white;
+}
+p.business_potential-p {
+  color: white;
+  font-size: 19px;
+  padding: 10px 0;
+  font-weight: lighter;
+} 
+a.button-contactus {
+  text-decoration: none;
+  background: #36C2F7;
+  text-align: center;
+  padding: 10px 15px 10px;
+  border-radius: 46px;
+  color: white;
+  font-size: 24px;
+}
+.center-main {
+  text-align: center;
+}
+
+.robote-anime {
+  animation-name: robote;
+  animation-duration: 3s;
+  position: relative;
+  left: 165px;
+}
+@keyframes robote{
+   from {
+    left: 0;
+    opacity: 0;}
+  to {
+    right: 165;
+    opacity: 1;}
+}
+  
+.main2 {
+  margin-top: 90px;
+}
+
+img.home-sec\. {
+  border-radius: 25px;
+  position: relative;
+  right: 25px;
+  top: 30px;
+  transition: 0.5s;
+  animation-name: home-sec;
+  animation-duration: 1s;
+}
+@keyframes home-sec{
+  from{
+    top: 100px;
+    opacity: 0;}
+  to{
+    top: 30px;
+    opacity: 1;}
+}
+img.home-sec\.:hover {
+ position: relative;
+  top: 20px;
+  right: 25px;
+
+}
+img.home-sec1 {
+  border-radius: 25px;
+  position: relative;
+  left: 180px;
+  top: -216px;
+  border: 16px solid white;
+  transition: 0.5s;
+  animation-name:secfirst;
+  animation-duration:1s;
+}
+@keyframes secfirst{
+  from{
+    opacity: 0;
+    top: -170px;
+
+  }
+  to{
+    opacity: 1;
+    top: -216px;
+  }
+}
+img.home-sec1:hover {
+  position: relative;
+  top: -230px;
+}
+
+img.home-sec3 {
+  border-radius: 25px;
+  position: relative;
+  top: 115px;
+  left: 32px;
+  transition: 0.5s;
+  animation-name: secthird;
+}
+img.home-sec3:hover {
+  position: relative;
+  top: 110px;
+}
+h5.heading-color-size {
+    font-size: 20px;
+    font-weight: bold;
+    color: #36E0F7;
+    margin-top: 36px;
+}
+.row.mgtop {
+    margin-top: 15px;
+}
+h2.main-heading2 {
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 40px;
+        margin-top: 15px;
+}
+p.main-paragh {
+    font-weight: 200;
+    font-family: sans-serif;
+    color: #7A7A7A;
+    padding: 0 15px 0 0;
+}
+h4.main-heading4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #000;
+}
+.read-more {
+    margin-top: 50px;
+}
+a.read-more-btn {
+    text-decoration: none;
+    font-size: 24px;
+    background: #083756;
+    padding: 18px 6px 18px 41px;
+    border-radius: 30px 30px 30px 0px;
+    color: white;
+}
+a.read-more-btn:hover {
+  background: #197188; }
+
+i.fa-solid.fa-greater-than {
+    margin-left: 5px;
+    background: white;
+    margin-top: 7px;
+    color: #083756;
+    padding: 8px 13px;
+    font-size: 32px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.main3 {
+    background: #6ec1e438;
+    padding: 50px;
+}
+.col-md-6.flex-center {
+    display: flex;
+    align-items: center;
+}
+.co-main {
+    background: white;
+    margin-top: 23px;
+    border-radius: 44px;
+    padding: 15px;
+    box-shadow: 0px 15px 5px -8px #052B45;
+}
+.co-main:hover {
+    background: #197188;
+    color: white;
+}
+button.btn {
+    font-size: 19px;
+    color: #36E0F7;
+}
+.mgbuttom {
+    margin-bottom: 23px;
+}
+.why-choose-us{
+  padding: 15px 15px 0;
+  font-size: 30px;
+  display: flex;
+  background: #042237;
+  background-image: url('who-we-are-bg-overlay.png');
+  background-size: cover;
+  padding: 20px;
+}
+.robote{
+  position: relative;
+  left: 165px;
+}
+ul.list-main {
+    list-style: none;
+    color: white;
+  }
+img.robote-img-1 {
+    width: 90%;
+    position: relative;
+    right: 65px;
+    top: 20px;
+}
+.container.main5 {
+    display: grid;
+}
+.main5 {
+    background: #042237;
+    background-image: url(file:///C:/Users/hp/Desktop/robotic%20and%20automation/footer-bg-overlay.png);
+    height: 406px;
+    display: flex;
+    align-items: center;
+    padding-top: 414px;
+} 
+.container.co-main5 {
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    color: white;
+}
+.icon-logo {
+    margin-top: 40px;
+}
+.fa {
+    text-decoration: none;
+    text-align: center;
+    width: 50px;
+    margin-left: 20px;
+}
+a.fa.fa-linkedin,a.fa.fa-facebook,a.fa.fa-twitter  {
+    font-size: 26px;
+}
+
+.fa-facebook {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fa-facebook:hover {
+    background: #3B5998;
+    position: relative;
+    top: -7px;
+}
+.fa-twitter {
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.fa-twitter:hover{
+  background: #55ACEE;
+  position: relative;
+  top: -7px;
+}
+
+.fa-linkedin {
+    
+    color: white;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    position: relative;
+}
+.fa-linkedin:hover{
+  background: #007bb5;
+  top: -7px;
+}
+.display-grid {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    padding: 100px;
+}
+img.grid-img {
+    border-radius: 25px;
+/*    width: 100%;*/
+    margin: 10px;
+}
+.item {
+    width: 84%;
+}
+.overlap {
+    position: relative;
+    top: -190px;
+    color: white;
+}
+.padding {
+    padding: 0 22px 0 35px;
+}
+span {
+    background: #0000007d;
+    padding: 5px 12px;
+    border-radius: 25px;
+}
+h4.overlap-h4 {
+    margin-top: 15px;
+}
